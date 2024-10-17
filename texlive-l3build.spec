@@ -3,7 +3,7 @@ Version:	64987
 Release:	2
 Summary:	A testing and building system for (La)TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/l3build
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/l3build
 License:	lppl1.3c
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3build.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l3build.doc.r%{version}.tar.xz
