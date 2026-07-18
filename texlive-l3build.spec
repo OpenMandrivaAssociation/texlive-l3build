@@ -1,5 +1,5 @@
 %global tl_name l3build
-%global tl_revision 79575
+%global tl_revision 79643
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
