@@ -1,5 +1,6 @@
 %global tl_name l3build
 %global tl_revision 79643
+%global tl_bin_links l3build:%{_texmfdistdir}/scripts/l3build/l3build.lua
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -16,6 +17,8 @@ BuildSystem:	texlive
 Requires:	texlive(l3build.bin)
 Requires:	texlive(luatex)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The build system supports testing and building LaTeX3 code, on Linux,
