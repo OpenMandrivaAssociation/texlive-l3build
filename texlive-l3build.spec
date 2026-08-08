@@ -1,5 +1,5 @@
 %global tl_name l3build
-%global tl_revision 79721
+%global tl_revision 79890
 %global tl_bin_links l3build:%{_texmfdistdir}/scripts/l3build/l3build.lua
 
 Name:		texlive-%{tl_name}
